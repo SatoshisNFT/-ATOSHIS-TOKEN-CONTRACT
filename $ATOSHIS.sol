@@ -246,7 +246,7 @@ contract SATOSHISJEWELLERY is Context, IERC20 {
 
     StaticValuesStruct public staticVals = StaticValuesStruct({
         maxBuyTaxes: 9,
-        maxSellTaxes: 9,
+        maxSellTaxes: 11,
         maxTransferTaxes: 0,
         masterTaxDivisor: 100
         });
@@ -272,7 +272,7 @@ contract SATOSHISJEWELLERY is Context, IERC20 {
     uint256 private lastSwap;
 
     uint256 private _maxTxAmount = (_tTotal * 1) / 100;
-    uint256 private _maxWalletSize = (_tTotal * 2) / 100;
+    uint256 private _maxWalletSize = (_tTotal * 5) / 100;
 
     uint256 public swapThreshold = (_tTotal * 5) / 10000;
     uint256 public swapAmount = (_tTotal * 10) / 10000;
