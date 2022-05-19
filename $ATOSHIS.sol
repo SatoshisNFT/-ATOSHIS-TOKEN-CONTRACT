@@ -262,8 +262,8 @@ contract SATOSHISJEWELLERY is Context, IERC20 {
     }
 
     TaxWallets public _taxWallets = TaxWallets({
-        marketing: payable(0xEEcF318Bb465f4ba2fDA3C9a67e1df28477c0C0a),
-        development: payable(0x8aF94328877ab6de2d3Bd2628b62A4F7f7cCefaB)
+        marketing: payable(0xC8c07132aAB27f18545BBD16d7ba5BA6c2895e2E),
+        development: payable(0x81062Cfe17a8aa0a60ce5143860300f51bb98178)
         });
     
     bool inSwap;
